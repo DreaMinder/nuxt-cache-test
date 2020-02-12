@@ -2,10 +2,10 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "generate:cached": "nuxt-netlify-cache/bin/generate.js"
+    "generate:cached": "nuxt-netlify-cache"
   },
   "dependencies": {
     "nuxt": "*",
-    "nuxt-netlify-cache": "*"
+    "nuxt-netlify-cache": "0.0.2"
   }
 }
