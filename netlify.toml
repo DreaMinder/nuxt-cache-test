@@ -1,3 +1,4 @@
-[context.branch-test]
-  [[plugins]]
-    package = "netlify-plugin-cypress"
+[[plugins]]
+  package = "netlify-plugin-cypress"
+  [plugins.inputs]
+    record = true
