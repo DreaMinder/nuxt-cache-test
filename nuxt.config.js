@@ -1,5 +1,5 @@
 module.exports = {
   head: {
-    title: 'test'
+    title: 'testing tests'
   }
 }
