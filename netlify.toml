@@ -1,2 +1,3 @@
-[[plugins]]
-  package = "netlify-plugin-cypress"
+[context.branch-test]
+  [[plugins]]
+    package = "netlify-plugin-cypress"
