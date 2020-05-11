@@ -4,6 +4,14 @@
   </section>
 </template>
 
+<script>
+export default {
+  asyncData() {
+    throw new Error('dummy error')
+  }
+}
+</script>
+
 <style>
 section {
   padding: 5rem;
