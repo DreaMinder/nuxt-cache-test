@@ -1,8 +1,19 @@
 <template>
   <section>
-    TEST
+    <n-link to="/nested">TEST1</n-link>
+    <span>{{test}}2</span>
   </section>
 </template>
+
+<script>
+export default {
+  asyncData({ params }) {
+    return  {
+      test: params.param
+    }
+  }
+}
+</script>
 
 <style>
 section {
