@@ -1,3 +1,4 @@
+console.log(Object.keys(process.env))
 module.exports = {
   head: {
     title: 'test'
