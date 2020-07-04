@@ -1,4 +1,4 @@
-console.log(Object.keys(process.env))
+console.log(Object.keys(process.env).filter(k => !k.includes('npm')))
 module.exports = {
   head: {
     title: 'test'
